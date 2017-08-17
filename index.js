@@ -17,8 +17,8 @@ else{
   console.log('It '+ chalk.green('is not')+ ' during Daylight Savings Time');
 }
 if(moment().isLeapYear() =="true"){
-  console.log('It '+ chalk.green('is')+ ' a Leap Year');
+  console.log('It '+ chalk.red('is')+ ' a Leap Year');
 }
 else{
-  console.log('It '+ chalk.green('is not')+ ' a Leap Year');
+  console.log('It '+ chalk.red('is not')+ ' a Leap Year');
 }
